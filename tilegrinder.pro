@@ -35,6 +35,7 @@ SOURCES += \
 
 HEADERS += \
         battle.h \
+        common_location_name.h \
         fraction.h \
         hero.h \
         location.h \

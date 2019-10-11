@@ -5,11 +5,10 @@
 Location::Location(QWidget *parent)
     : QWidget(parent)
     , ui(new Ui::Location())
-    , m_name("Uiuiui")
 {
 
     ui->setupUi(this);
 
-    ui->name->setText(name());
+    ui->name->setText("");
     ui->name->setDisabled(true);
 }

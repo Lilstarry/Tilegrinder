@@ -1,6 +1,8 @@
 #ifndef MAINWINDOW_H
 #define MAINWINDOW_H
 
+#include "location.h"
+
 #include <QMainWindow>
 
 namespace Ui {
@@ -17,6 +19,7 @@ public:
 
 private:
     Ui::MainWindow *ui;
+    QList<Location *> m_locations;
 };
 
 #endif // MAINWINDOW_H

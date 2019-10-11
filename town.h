@@ -24,4 +24,3 @@ private:
     int m_gold;
     int m_income;
 };
-

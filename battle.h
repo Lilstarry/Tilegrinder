@@ -1,5 +1,5 @@
-#include "location.h"
 #include "fraction.h"
+#include "location.h"
 
 #include <QPair>
 
@@ -16,4 +16,3 @@ private:
     int fractionBonus(const Fraction::Type f, const Location *location, bool townOwner);
     int marauding(const int alive, const int equipAlive, const int dead, const qreal equipDead);
 };
-

@@ -29,4 +29,3 @@ private:
     int m_idea;
     int m_player;
 };
-

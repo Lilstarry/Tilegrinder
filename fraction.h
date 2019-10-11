@@ -1,7 +1,9 @@
 #pragma once
 
-struct Fraction {
-    enum Type {
+struct Fraction
+{
+    enum Type
+    {
         None,
         Romen,
         Barbarian,

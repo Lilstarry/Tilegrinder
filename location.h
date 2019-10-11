@@ -3,14 +3,18 @@
 #include <QWidget>
 
 class Hero;
-namespace Ui { class Location; }
+namespace Ui {
+class Location;
+}
 
-class Location : public QWidget {
+class Location : public QWidget
+{
     Q_OBJECT
 public:
     explicit Location(QWidget *parent = nullptr);
 
-    enum Type {
+    enum Type
+    {
         Empty,
         Town,
         Capital,
@@ -27,7 +31,7 @@ public:
     void setType(const int type) { m_type = type; }
     int type() const { return m_type; }
 
-    void setPlayer(const int player) { m_player = player;}
+    void setPlayer(const int player) { m_player = player; }
     int player() const { return m_player; }
 
 private:

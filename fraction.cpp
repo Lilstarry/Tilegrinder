@@ -2,5 +2,4 @@
 
 fraction::fraction()
 {
-
 }

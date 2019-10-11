@@ -1,5 +1,6 @@
 #include "town.h"
 
-void Town::conviction(const int enemyIdea) {
+void Town::conviction(const int enemyIdea)
+{
     int cube = qrand() % 6;
 }
